@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-cards": [
+        "dist/ng-cards"
+      ],
+      "ng-cards/*": [
+        "dist/ng-cards/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
