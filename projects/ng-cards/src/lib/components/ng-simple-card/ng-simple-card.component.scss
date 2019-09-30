@@ -46,7 +46,7 @@ $heroes-list-header-height: 80px;
 $hero-card-width: 650px;
 $hero-card-height: 250px;
 
-:host {
+.hero {
   width: $hero-card-width;
   height: $hero-card-height;
   margin: $base-margin;
